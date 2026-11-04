@@ -18,7 +18,6 @@ I solve LeetCode problems because I genuinely love doing it. Every problem is a 
 ### 💻 Languages
 
 ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
 ### 🔗 My LeetCode Profile
 [LeetCode](https://leetcode.com/u/SHARADAMANI/)
