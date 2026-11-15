@@ -3,12 +3,15 @@ class Solution:
         s.sort()
         g.sort()
 
-        cookie_index=0
-        for child_ind in range(len(g)):
-            while cookie_index< len(s) and s[cookie_index]<g[child_ind]:
-                cookie_index += 1
-            if cookie_index >= len(s):
-                return child_ind
-            cookie_index += 1
-        return len(g)
+        count=0
+        j=0
+        i=0
+        while i<len(g) and j<len(s):
+            if s[j]>=g[i]:
+                count+=1
+                j+=1
+                i+=1
+            else:
+                j+=1
+        return count
 
