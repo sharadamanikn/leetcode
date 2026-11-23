@@ -1,5 +1,5 @@
 class Solution:
-    def maximumProduct(self, nums: List[int]) -> int:
+    def maximumProduct(self, nums: list[int]) -> int:
         nums.sort()
         n=len(nums)
         m1=nums[n-1]*nums[n-2]*nums[n-3]
